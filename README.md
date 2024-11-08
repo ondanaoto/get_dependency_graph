@@ -2,6 +2,10 @@
 1. do the following:
 ```
 git clone ~~
+cd mathlib
+lake exe cache get
+lake build
+lake exe graph
 rye sync
 ```
 2. use the script like the following:
